@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zestful Bites</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+
+       <div class="line1"> Zestful Bites  </div>
+          <div class="line2"> Products </div>
+            <div class="product-list">
+              <div class="product">
+                <div class="product-item " id="1">
+                         <img  class="image-class " src="https://www.albayan.ae/polopoly_fs/1.4143307.1618604654!/image/image.jpg" alt="no">
+                         <button class="action-button"onclick="addProductToCart('1')">Add to Cart</button> 
+                         <div class="line">Cherry</div>
+                         <div>price: 10.00$</div>
+                        </div>
+                  <div class="product-item" id="2" >
+                         <img  class="image-class " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHmAwqeExHxw9dQmPGaIcEgEXjIlaHO44Uxg&s" alt="no">
+                         <button class="action-button"onclick="addProductToCart('2')">Add to Cart</button> 
+                         <div class="line">Strawberry</div>
+                         <div>price: 18.00$</div>
+                        </div>
+                  <div class="product-item" id="3" >
+                         <img  class="image-class" src="https://sc02.alicdn.com/kf/H7bc10ec7d8db4a9fbf590624e6042619k/Fresh-orange-fruit-green.jpg" alt="no">
+                         <button class="action-button"onclick="addProductToCart('3')">Add to Cart</button>
+                         <div class="line">Orange Fruit</div>
+                         <div>price: 20.00$</div>
+                        </div>
+                            </div>
+              <div class="product">
+                
+                  <div class="product-item"  id="4">
+                             <img  class="image-class"src="https://img.youm7.com/ArticleImgs/2019/8/25/2436845-%D9%83%D9%8A%D9%88%D9%89.jpg" alt="no">
+                             <button class="action-button"onclick="addProductToCart('4')">Add to Cart</button>
+                             <div class="line">Kiwi</div>
+                             <div>price: 15.00$</div>
+                            </div>
+                  <div class="product-item"id="5" >
+                              <img  class="image-class" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62ZaqfOxkSvNwYKGbdNk2o_U2arUFBt3U-Q&s" alt="no">
+                              <button class="action-button"onclick="addProductToCart('5')">Add to Cart</button>
+                              <div class="line">Apricot</div>
+                              <div> price: 13.00$</div>
+                             </div>
+                  <div class="product-item" id="6">
+                              <img  class="image-class"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpuABzImmcTweDOhe4tFyscRD9WuzfpNsfg&s" alt="no">
+                              <button class="action-button"onclick="addProductToCart('6')">Add to Cart</button>
+                              <div class="line">Pomegranate</div>
+                              <div> price: 19.00$</div>
+                             </div>
+                                </div>        
+                                   </div>
+             
+             <section class="cart">
+                <h2>Shopping Cart</h2>
+                <div id="cart-items"></div>
+                <div id="cart-total">
+                <p class="line3">  Checkout  </p>
+                    <p> Car Total: $<span id="total-amount">0.00</span></p>
+                    <label for="amount-received">Enter Cash Received: $</label>
+                    <input type="number" id="amount-received" step="0.01" placeholder="0.00">
+                    <button onclick="Pay()">submit</button>
+                </div>
+                <div id="checkout-result"></div>
+              <div  id="receipt">
+                <p class="line3" >receipt</p>
+                  <p id="cash-received">Cash Received: $0.00</p>
+                  <p id="cash-returned">Cash Returned: $0.00</p>
+                  <p id="remaining-balance">Remaining Balance: $0.00</p>
+                  <p id="thank-you"></p>
+              </div>
+            </section>
+            <script src="script.js"></script>
+    
+    </body>
+</html>
+
