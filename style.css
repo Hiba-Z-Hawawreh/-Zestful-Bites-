@@ -12,29 +12,29 @@ body {
 .line1{
     margin-top: 20px;
     margin-left: 350px;
-    padding: 10px; /* حشوة حول النص */
+    padding: 10px; 
     font-size: 50px;
     text-align: center;
-    font-family: 'Georgia', serif; /* اختر نوع الخط */
-    font-size: 30px; /* حجم الخط */
-    font-weight: bold; /* سمك الخط */
-    color:#080808; /* لون النص */
-    line-height: 1.5; /* ارتفاع السطر */
-    letter-spacing: 1px; /* تباعد الأحرف */
-    text-shadow: 1px 1px 2px rgba(2, 2, 2, 0.5); /* ظل النص */
-    background-color:white; /* لون خلفية للنص */
-    border-radius: 8px; /* زوايا دائرية حول الخلفية */
-    max-width: 600px; /* عرض أقصى للنص */
-    border: 2px solid #ddd; /* إطار حول النص */
+    font-family: 'Georgia', serif; 
+    font-size: 30px; 
+    font-weight: bold; 
+    color:#080808; 
+    line-height: 1.5; 
+    letter-spacing: 1px; 
+    text-shadow: 1px 1px 2px rgba(2, 2, 2, 0.5);
+    background-color:white; 
+    border-radius: 8px; 
+    max-width: 600px; 
+    border: 2px solid #ddd; 
             
 }
 .line2{
     font-family: 'Georgia', serif; 
-    font-weight: bold; /* سمك الخط */
-    color:#080808; /* لون النص */
-    line-height: 1.5; /* ارتفاع السطر */
+    font-weight: bold; 
+    color:#080808; 
+    line-height: 1.5; 
     letter-spacing: 1px;
-    border: 2px solid #ddd; /* إطار حول النص */
+    border: 2px solid #ddd; 
     padding: 5px;
     font-size: 20px;
     font-family: 10px;
@@ -108,7 +108,7 @@ body {
 }
 .cart {
     
-    position: absolute; /* أو fixed */
+    position: absolute; 
     top: 145px;
     width: 535px;
     background-color:white;
@@ -120,10 +120,10 @@ body {
 h2 {
     text-align: center;
     color:#080808; 
-    font-weight: bold; /* سمك الخط */
-    line-height: 1.5; /* ارتفاع السطر */
-    letter-spacing: 1px; /* تباعد الأحرف */
-    text-shadow: 1px 1px 2px rgba(2, 2, 2, 0.5); /* ظل النص */
+    font-weight: bold; 
+    line-height: 1.5; 
+    letter-spacing: 1px; 
+    text-shadow: 1px 1px 2px rgba(2, 2, 2, 0.5);
     font-family: 'Georgia', serif;
 }
 #cart-items {
